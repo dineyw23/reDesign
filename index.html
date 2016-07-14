@@ -5,10 +5,10 @@ layout: default
   <div class="wrapper-1">
     <div class="menu-content">
       <ul id="menu">
-        <li> <a href="#About"> ABOUT </a> </li>
-        <li> <a href="#Projects"> PROJECTS </a> </li>
-        <li> <a href="#Likes"> LIKES </a> </li>
-        <li> <a href="#Work"> WORK </a> </li>
+        <li> <a href="#wrapper-2"> ABOUT </a> </li>
+        <li> <a href="#project-wrapper"> PROJECTS </a> </li>
+        <li> <a href="#likes-wrapper"> LIKES </a> </li>
+        <li> <a href="#work-wrapper"> WORK </a> </li>
       </ul>
     </div>
     <hr id="menu-line"> 
@@ -24,35 +24,96 @@ layout: default
       </div>
 
   <!-- About -->
-  <div class="wrapper-2">
-    <a name="About"> 
+  <div id="wrapper-2">
     <p id="about"> Hey there! I'm a software engineer and a learner from India. Currently I'm working towards my Masters Degree in Computer Science at California State University, Chico. Simultaneously, I work part-time as a Developer at Distributed Learning Technologies - Chico State. 
     I'm passionate about programming, web development and design. This site will help you to know me better as he shares some of my work here.</p>
-    </a> 
     <img src="/images/pic.png">
   </div>
   <br>
   </div>
 
   <!-- Projects -->
-  <div class="project-wrapper">
-  <a name="Projects"> 
+  <div id="project-wrapper">
     <h1> Projects </h1>
     <hr>
-    <div class="project-card-wrapper">
-    <img src="/images/disc.png"> 
-    <img src="/images/gold.png">
-    <img src="/images/auction.png">
-    <img src="/images/string.png">
-    <img src="/images/flash.png">
-    <img src="/images/auction.png">
-    </div>
-    </a> 
+    <br>
+      <div class="clearfix flip">
+        <a href="https://github.com/dineyw23/Distributed-Programming"><div class="project1 hover front">
+        </div></a>
+
+        <h3 class="p-title"> GoldChase </h3>
+        <p class="p-desc">  
+        toolstack: C++, Shared Memory, Semaphore, Inter-process communication
+        </p>
+          <p class="p-desc2">
+        A multiplayer game focusing on distributed programming and inter-process communication developed using C++. Currently working on its object oriented design.
+      </p>
+      </div>
+
+      <div class="clearfix">
+        <a href="https://github.com/dineyw23/"><div class="project2 hover">
+        </div></a>
+        <h3 class="p-title"> String Substitution </h3>
+        <p class="p-desc">
+          toolstack: C++, Standard Template Libraries, Object Oriented
+          </p>
+          <p class="p-desc2">
+          Object oriented mini-project developed in C++ which can be used for text substitution(Find and Replace) using minimal buffer. Reading the file only once and replacing the text in a single iteration using a dynamic buffer of size much less than that of replacement word are the key aspects of this project. Used std::fstream library.
+        </p>
+      </div>
+
+      <div class="clearfix">
+        <a href="https://github.com/dineyw23/Discus_It"><div class="project3 hover">
+        </div></a>
+        <h3 class="p-title"> Discussion App </h3>
+        <p class="p-desc" >
+        toolstack: Ruby, Rails, Heroku, Bootstrap, HTML5, CSS3
+        </p>
+        <p class="p-desc2">
+        Ruby on Rails application hosted on heroku, built using different resource available on web. Used devise, links, acts_as_votable and bootstrap-sass ruby gems. Implemented different scaffolds.
+  </p>
+      </div>
+
+      <div class="clearfix">
+        <div class="project4 hover">
+        </div>
+        <a href="https://github.com/dineyw23/AuthSystem"><h3 class="p-title"> Authentication System</h3></a>
+          <p class="p-desc">
+         toolstack: C# and .NET framework, Eclipse IDE and Rational Rose(ER-Diagrams)
+         </p>
+          <p class="p-desc2">
+          Importance of network security motivated me to work as a group leader in a group of four under the domain of Network security. Developed a tool for high security devices like PDAs (Personal Digital Assistant). This inexpensive system uses color rating along with text to generate different passwords each time. It is not vulnerable to eavesdropping,dictionary attacks, social engineering and shoulder surfing.
+  
+        </p>
+      </div>
+
+      <div class="clearfix">
+        <a href="https://github.com/dineyw23/Android_Simple_Programs"><div class="project5 hover">
+        </div></a>
+        <h3 class="p-title"> Flash App </h3>
+          <p class="p-desc">
+           toolstack: Android, Java, XML, Google Maps API, AWS EC2
+          </p>
+          <p class="p-desc2">
+          An android application to take notes (build flash cards) using android’s 3D flip animation with proximity alert system and ‘Share with classmates’ feature.
+
+        </p>
+      </div>
+
+      <div class="clearfix">
+        <div class="project6 hover">
+        </div>
+        <h3 class="p-title"> Auction System </h3>
+        <p class="p-desc">
+         toolstack: Oracle 11g, PL/SQL, Visual Basic, Visual Studio, SQL Developer
+
+        In the E-commerce world, competition is booming and maintaining a top spot needs new and creative ideas. Designed and developed a windows application which can be used with number of E-commerce sites where auctioning facility is not available. This project furnished my skill to write optimum stored procedures and managing database connectivity with the front-end.
+  </p>
+     </div>
   </div>
 
   <!-- Likes -->
-  <div class="likes-wrapper">
-  <a name="Likes">
+  <div id="likes-wrapper">
    <h1>  Likes </h1>
    <hr>
      <h3>SKILLS</h3>
@@ -103,13 +164,11 @@ layout: default
      </tr>
      </table>
      </div>
-     </a> 
   </div>
 
   <br>
   <!-- Work -->
-  <div class="work-wrapper">
-    <a name="Work">
+  <div id="work-wrapper">
     <h1>  Work </h1>
     <hr>
     <br>
@@ -138,11 +197,10 @@ layout: default
      <p> Researched on and assisted in designing and developing android applications. Exposure to various android applications and softwares like Eclipse and Android Studio(IntelliJ). Developed android applications which utilizes in-build functionalities and gives a better/easier UI experience for users. </p>
     </div>
     <br><br>
-    </a> 
   </div>
   <!-- Contact -->
   <div class="contact-wrapper">
-   <h1> <a name="contact"> CONTACT </a> </h1>
+   <h1> CONTACT </h1>
    <ul class="social">
       <li> <a href="mailto:diney.wankhede@gmail.com" > <img src="/images/mail.png"> </a></li>
       <li> <a href="https://www.linkedin.com/in/diney-wankhede" target="_new">  <img src="/images/linkedin.png"></a></li>
@@ -159,5 +217,5 @@ layout: default
           <h2> by Diney Wankhede. </h2>
         </div>
   </div>
-
 </div>
+
