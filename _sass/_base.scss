@@ -420,7 +420,7 @@ h1#lname {
 
 
     .wrapper-1 {
-        margin: 3px;
+        margin: 5px;
 
         .main-header {
             h1{
@@ -429,7 +429,7 @@ h1#lname {
             }
 
             #fname {
-                margin-top: 160px;
+                margin-top: 120px;
                 font-weight: 700;
             }
 
@@ -445,25 +445,112 @@ h1#lname {
     
     #wrapper-2 {
 
-    #about {
-        font-size: 15px;
-        width:90%;
-        margin-top: 50px;
-        padding-left: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        #about {
+            font-size: 15px;
+            width:90%;
+            margin-top: 50px;
+            padding-left: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        img {
+            width:90%;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
     }
-    img {
-        width:90%;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 10px;
+
+
+    #project-wrapper {
+
+    h1 {
+        margin-left: 30px;
+    }
+
+    hr {
+        margin-right: 30px;
+    }     
+    
+    .project1{
         margin-left: auto;
         margin-right: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+        .project2 {
+        margin-left: 90px;
+        margin-right: auto;
+        float: left;
+        height: 387px;
+        width: 436px;
+        margin-bottom: 30px;
+        background: url("/images/string.png");
+        border-radius: 10px;
+    }
+        .project3 {
+        height: 387px;
+        margin-left: 90px;
+        float: left;
+        margin-right: auto;
+        width: 436px;
+        margin-bottom: 30px;
+        background: url("/images/disc.png");
+         border-radius: 10px;
+    }
+        .project4 {
+        margin-left: 90px;
+        margin-right: auto;
+        float: left;
+        height: 387px;
+        width: 436px;
+        margin-bottom: 30px;
+        background: url("/images/auth.png");
+        border-radius: 10px;
+    }
+        .project5 {
+        margin-left: 90px;
+        margin-right: auto;
+        float: left;
+        height: 387px;
+        width: 436px;
+        margin-bottom: 30px;
+        background: url("/images/flash.png");
+        border-radius: 10px;
+    }
+        .project6 {
+        margin-left: 90px;
+        margin-right: auto;
+        float: left;
+        height: 387px;
+        width: 436px;
+        margin-bottom: 30px;
+        background: url("/images/auction.png");
+        border-radius: 10px;
+    }
+   
+    .p-title {
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    .p-desc {
+        margin-left: 20px;
+        line-height: 1.8em;
+        letter-spacing: 1px;
+    }
+
+
+    .p-desc2 {
+        margin-left: 20px;
+        line-height: 1.8em;
+        letter-spacing: 1px;
     }
 }
-
-
 
 
 }
