@@ -603,14 +603,10 @@ h1#lname {
 
 
     .work-1 {
-        display: inline-block;
         margin-left: 30px;
-        text-align: center;
     }
      .work-2 {
         margin-left: 30px;
-        text-align: left;
-        display: inline-block;
     }
      .work-3 {
         display: inline-block;
@@ -621,17 +617,12 @@ h1#lname {
 
     h3.title  {
         margin-left: 30px;
-        float: left;
-        font-size: 18px;
-        color: #297B31;
-        font-weight: 700;
     }
 
     h3.place {
         margin-left: 30px;
         float: left;
         clear: left;
-        font-weight: 500;
     }
 
     h3.period {
@@ -642,6 +633,8 @@ h1#lname {
     
     p {
         text-align: left;
+        float: left;
+        clear: left;
         margin-left: 30px;
         margin-right: 5px;
         line-height: 1.2em;
